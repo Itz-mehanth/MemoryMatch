@@ -189,7 +189,7 @@ export default function MemoryMatch() {
           <h2 style={{ color: "#ffcc00" }}>{turns}</h2>
         </div>
       </div> */}
-      <div className="timer-container">
+      <div className="timer-container" style={{ width: '100px', height: '100px' }}>
         <CircularProgressbar 
           value={(timeLeft / 60) * 100} 
           text={`${timeLeft}s`} 
